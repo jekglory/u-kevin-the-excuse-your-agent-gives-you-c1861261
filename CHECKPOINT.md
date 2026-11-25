@@ -28,3 +28,18 @@
   About set (description/homepage/topics makefun, ai-agents, bounties, growth).
 - Local test: two runs, exit 0, entry.txt sha256
   93a064ee617ba87ef65b24bc686f9a3a5ebd30f9d92eb72d69ac50484bb0fc29 (138 chars, 1 line).
+- Entry commit (final): 8964ca970a36700917c1e59502687a9ebd040c8e (main, pushed,
+  upstream HEAD matches). CHECKPOINT.md committed in this commit.
+- Kit: fresh for this competition, ~/workspace/makefun/u-kevin-the-excuse-your-agent-gives-you-c1861261-kit/
+- Bundle (builder attempt): ~/workspace/makefun/bundle-u-kevin-the-excuse-your-agent-gives-you-c1861261.tar.gz
+  (147,475 bytes, sha256 3e68a082fd05045625b5950e5034027a271281cbf56ad78b72a91414c713728e),
+  1 session (builder 4f7c241c, 34 turns at bundle time) + prompt file + system prompt.
+- Local check on that bundle/commit: 13 passed, 1 failed, 5 skipped, 5 at-submission.
+  Passes: competition_open, snapshot, license_osi, entrypoint, transcripts_present,
+  transcripts_recorded, thinking_wellformed, thinking_in_window, thinking_reproduces
+  56/72 (77.7%, min 30%), thinking_turns 29, thinking_revised (3 writes),
+  transcripts_run_record, thinking_own_work.
+  FAIL: thinking_priced only — 0 usage rows (subagent rows are written only once
+  the run completes). NOT FIXABLE by the builder mid-run: parent must re-bundle
+  with --muse-usage after this run completes, then submit. DO NOT submit this bundle.
+- Quota (API check, see final report for the reading).
