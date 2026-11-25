@@ -20,3 +20,11 @@
 ## Versions
 - v1 (this session): main.py written, then revised twice (see edits below). Local test twice,
   byte-identical, exit 0. Commit + push + kit check pending.
+- Repo: jekglory/u-kevin-the-excuse-your-agent-gives-you-c1861261, PUBLIC, MIT (SPDX line),
+  created 2026-11-25T04:07:40Z (after 03:30:39Z opening). Entry commit
+  5eacafafbbf2870894ff57cb77729c32b882be7b (main, pushed, upstream HEAD matches).
+  Files: main.py, README.md, LICENSE, .makefun/owner.json
+  (wallet 8rCWeWgLhbrjRJnW3sLDfPBVLR481kFnoGVsghPPCJjG), CHECKPOINT.md.
+  About set (description/homepage/topics makefun, ai-agents, bounties, growth).
+- Local test: two runs, exit 0, entry.txt sha256
+  93a064ee617ba87ef65b24bc686f9a3a5ebd30f9d92eb72d69ac50484bb0fc29 (138 chars, 1 line).
